@@ -89,7 +89,8 @@ button:hover{
     display: none;
 }
 .navbar ul{
-    backdrop-filter: blur(10px)
+    backdrop-filter: blur(20px)
+    
     }
 @media (max-width : 843px){
     .menuIcon{
@@ -101,8 +102,9 @@ button:hover{
         width: fit-content;
         position: fixed;
         right: -100%;
-        top: 5%;
+        top: 10%;
         transition: .5s;
+        z-index: 100; 
     }
 }
 
